@@ -1,0 +1,92 @@
+body{
+	width: 100vw;
+	height: 100vh;
+	background: #5BB8FF;
+}
+.logo{
+	height: 20vh;
+}
+.change{
+	display: flex;
+	width: 40vw;
+	margin: 0 auto;
+	color: #eee;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 0.40rem;
+}
+.change span{
+	padding: 1vw 2vw;
+}
+.change .active{
+	border-bottom: 2px solid #fff;
+	color: #fff;
+	font-weight: 700;
+}
+.login,.register{
+	margin-top: 8vw;
+}
+.login-box{
+	width: 85vw;
+	margin: 0 auto;
+	border-radius: 5px;
+	overflow: hidden;
+	background: #fff;
+}
+.code{
+	position: relative;
+}
+.login-box input{
+	display: block;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	width: 100%;
+	height: 6vh;
+	padding: 0 4vw;
+	font-size: 0.36rem;
+	border-bottom: 1px solid #ccc;
+}
+.login-box div:last-child input{
+	border: none;
+}
+.login-btn{
+	width: 85vw;
+	margin: 5vw auto;
+	background: #fff;
+	border-radius: 5px;
+	height: 6vh;
+	line-height: 6vh;
+	text-align: center;
+	font-size: 0.44rem;
+	color: #5BB8FF;
+}
+.qita{
+	width: 85vw;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	font-size: 0.32rem;
+	letter-spacing: 1px;
+}
+.register{
+	display: none;
+}
+.get-code{
+	position: absolute;
+	right: 3vw;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	color: #5BB8FF;
+	height: 8vw;
+	line-height: 8vw;
+	width: 23vw;
+	text-align: center;
+	border: 1px solid #5BB8FF;
+	font-size: 0.32rem;
+	border-radius: 3px;
+}

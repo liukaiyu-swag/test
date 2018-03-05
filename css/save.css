@@ -1,0 +1,12 @@
+.save{
+	width: 100vw;
+	height: 7vh;
+	background: #5BB8FF;
+	color: #fff;
+	font-size: 0.4rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	line-height: 7vh;
+	text-align: center;
+}

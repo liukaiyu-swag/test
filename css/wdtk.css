@@ -1,0 +1,43 @@
+.box{
+	font-size: 0.3rem;
+}
+.box span{
+    display: block;
+}
+.box i{
+    margin-left: 3vw;
+}
+.box p{
+    margin-left: 3vw;
+}
+.timu{
+    padding: 5vw 5vw;
+    border-bottom: 1px solid #cccccc;
+}
+.timu>div{
+	margin-left: 3vw;
+}
+.timu em{
+	color: #555;
+}
+.anniu {
+    margin-left: 2vw;
+    width: 8vw;
+    height: 4vw;
+    float: right;
+    border-radius: 1vw;
+    font-size: 0.30rem;
+    color: #5BB8FF;
+    white-space: nowrap;
+}
+.xiugai{
+    /*background: deepskyblue;*/
+    text-align: center;
+}
+.delete{
+    /*background: red;*/
+    text-align: center;
+}
+.anniu a{
+	color: #5BB8FF;
+}

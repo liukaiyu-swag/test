@@ -1,0 +1,26 @@
+li{
+	padding: 3vw 0;
+	text-align: center;
+	height: 6vh;
+}
+input{
+	box-sizing: border-box;
+	width: 80vw;
+	height: 6vh;
+	outline: none;
+	border-radius: 5px;
+	padding: 0 3vw;
+	border: 1px solid #ccc;
+	font-size: 0.32rem;
+}
+footer{
+	margin: 10vw auto;
+	width: 80vw;
+	background: #5BB8FF;
+	height: 6vh;
+	line-height: 6vh;
+	text-align: center;
+	font-size: 0.38rem;
+	color: #fff;
+	border-radius: 5px;
+}

@@ -1,0 +1,15 @@
+.header{
+	background: #5bb8ff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 7vh;
+	color: #fff;
+	font-size: 0.32rem;
+}
+.jiantou{
+	margin-left: 2vw;
+	font-weight: 700;
+	font-size: 0.34rem;
+}

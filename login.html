@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <script type="text/javascript" src="js/rem.js" ></script>
+	    <link rel="stylesheet" href="css/base.css" />
+	    <link rel="stylesheet" href="css/login.css" />
+	</head>
+	<body>
+		<section>
+			<div class="logo"></div>
+			<div class="change">
+				<span class="active change-login">登录</span>
+				<span class="change-register">注册</span>
+			</div>
+			<div class="login">
+				<div class="login-box">
+					<div class="username">
+						<input type="text" placeholder="输入账号/手机号" name="username"/>
+					</div>
+					<div class="password">
+						<input type="password" placeholder="输入密码"/>
+					</div>
+				</div>
+				<div class="login-btn">登录</div>
+				<div class="qita">
+					<span>免费试用</span>
+					<em>忘记密码?</em>
+				</div>
+			</div>
+			<div class="register">
+				<div class="login-box">
+					<div class="username">
+						<input type="text" placeholder="输入手机号"/>
+					</div>
+					<div class="code">
+						<input type="text" placeholder="输入验证码"/>
+						<span class="get-code">获取验证码</span>
+					</div>
+					<div class="password">
+						<input type="password" placeholder="输入密码"/>
+					</div>
+				</div>
+				<div class="login-btn">立即注册</div>
+			</div>
+		</section>
+	</body>
+	<script>
+		let login=document.querySelector(".change-login");
+		let register=document.querySelector(".change-register");
+		login.onclick=function(){
+			document.querySelector(".register").style.display="none";
+			document.querySelector(".login").style.display="block";
+			login.classList.add("active");
+			register.classList.remove("active");
+		}
+		register.onclick=function(){
+			document.querySelector(".register").style.display="block";
+			document.querySelector(".login").style.display="none";
+			login.classList.remove("active");
+			register.classList.add("active");
+		}
+		document.querySelector(".qita span").onclick=document.querySelector(".login-btn").onclick=function(){
+			if(document.querySelector("[name='username']").value==1){
+				window.location.href="wdtk.html";
+			}else if(document.querySelector("[name='username']").value==2){
+				window.location.href="tkgl.html";
+			}
+			else{
+				window.location.href="index.html";
+			}
+		}
+	</script>
+</html>

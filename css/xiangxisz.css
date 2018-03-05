@@ -1,0 +1,39 @@
+body{
+	background: #F3F3F3;
+}
+
+.list li{
+	width: 100vw;
+	box-sizing: border-box;
+	padding: 2vw 5vw;
+	color: #000000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 0.32rem;
+	border: 1px solid #F3F3F3;
+	background: #fff;
+}
+.list img{
+	width: 22vw;
+	height: 22vw;
+	border-radius: 50%;
+}
+.list li:nth-child(2){
+	margin-top: 4vw;
+}
+.list li:nth-child(4n){
+	margin-top: 4vw;
+}
+.save{
+	width: 100vw;
+	height: 7vh;
+	background: #5BB8FF;
+	color: #fff;
+	font-size: 0.4rem;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	line-height: 7vh;
+	text-align: center;
+}

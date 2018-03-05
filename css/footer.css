@@ -1,0 +1,26 @@
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #fff;
+	width: 100vw;
+}
+.footer ul{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-size: 0.32rem;
+}
+.footer a{
+	padding: 1vw 0;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	color: #555;
+}
+.footer a span{
+	margin-top: 4px;
+}
+.footer a i{
+	font-size: 0.40rem;
+}
